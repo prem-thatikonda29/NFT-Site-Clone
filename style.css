@@ -14,6 +14,7 @@
     --LINK-WHITE: #f8f9fad7;
     --FAINT-LINKS: #ADB5BD;
     --DARK-LINKS: #495057;
+    --CARD_BACKGROUND: #001845;
 }
 
 /* ---------HEADER SECTION--------- */
@@ -254,7 +255,7 @@ nav a:active{
     padding: 40px 10px;
     display: grid;
     grid-template-columns: 325px 325px 325px 325px;
-    grid-template-rows: 400px 400px 400px;
+    grid-template-rows: 410px 410px 410px;
     column-gap: 25px;
     row-gap: 28px;
 }
@@ -272,8 +273,14 @@ nav a:active{
 }
 
 .card .card-info{
+    height: 30%;
     padding: 20px 20px 0px 20px;
 }
+
+.card-info, .card-button{
+    background-color: var(--CARD_BACKGROUND);
+}
+
 .card .card-info h3{
     padding-bottom: 6px;
 }
@@ -305,28 +312,30 @@ nav a:active{
 
 .card-button{
     width: 100%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0 0 50px 50px;
 }
 
 .card-button button{
-    font-size: 22px;
+    font-size: 20px;
     padding: 5px 10px;
-    margin-top: 15px;
+    margin-top: 8px;
     width: 75%;
     border-radius: 12px;
     border: 1px solid var(--ROYALBLUE);
-    box-shadow:  3px 3px 10px #215fbb,
-             -3px -3px 10px #2974e5;
+    box-shadow:  1px 1px 10px var(--FAINT-LINKS) ,
+             -1px -1px 10px var(--LINK-WHITE);
     cursor: pointer;
-    background-color: var(--BACKGROUND-COLOR);
+    background-color: var(--CARD_BACKGROUND);
     color: var(--LINK-WHITE);
     transition: .3s ease-in-out;
 }
 
 .card-button button:hover{
-    background-color: var(--ROYALBLUE);
+    background-color: var(--HOVERED-BLUE);
     color: #fff;
     box-shadow: none;
 }
