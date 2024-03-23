@@ -26,13 +26,12 @@
 }
 
 .logo img{
-    width: 90%;
+    width: 70%;
     padding: 2.5%;
 }
 
 nav{
     width: 500px;
-    border: .5px solid red;
     margin-left: 6%;
     display: flex;
     justify-content: space-between;
@@ -53,12 +52,25 @@ nav a:hover{
 }
 
 nav a:active{
-    color: #F8F9FA;
+    color: #f8f9fa;
 }
 
 .cta-buttons{
     width: 20%;
     border: .5px solid red;
+    display: flex;
+    align-items: center;
+}
+
+.cta-buttons .search{
+    width: 64px;
+    height: 64px;
+    border: 1px solid #1c61c7;
+}
+
+.cta-buttons .search img{
+    width: 100%;
+    padding: 10%;
 }
 
 /* ----------MAIN SECTION------------ */
