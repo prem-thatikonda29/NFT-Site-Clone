@@ -296,6 +296,8 @@ nav a:active{
     align-items: center;
     border: none;
     transition: .3s ease-in-out;
+    background-color: #adb5bd7a;
+    border: 1px solid var(--FAINT-LINKS);
 }
 
 .card .card-image button:hover{
@@ -373,4 +375,26 @@ nav a:active{
     background-color: var(--HOVERED-BLUE);
     color: #fff;
     box-shadow: none;
+}
+
+.explore-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-button button{
+    height: 45px;
+    padding: 10px 20px;
+    font-size: larger;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--ROYALBLUE);
+    color: var(--LINK-WHITE);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.explore-button button:hover{
+    background-color: var(--HOVERED-BLUE);
 }
