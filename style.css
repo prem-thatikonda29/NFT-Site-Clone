@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Wix Madefor Text", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 /* ---------HEADER SECTION--------- */
@@ -101,4 +101,57 @@ nav a:active{
     height: 100vh;
     margin-top: -110px;
     background-color: #000814;
+    display: flex;
+    padding: 0 50px;
+}
+
+.section-1 .hero-info{
+    border: 1px solid #f8f9fa;
+    width: 45%;
+    margin-top: 110px;
+    padding: 80px 20px 0 20px;
+}
+
+.section-1 .hero-info h1{
+    color: #f8f9fa;
+    font-size: 4.5em;
+}
+
+.section-1 .hero-info h1 span{
+    color: #1c61c7;
+}
+
+.section-1 .hero-info p{
+    color:#ADB5BD;
+    font-size: 1.1rem;
+    padding: 30px 20px 40px 0;
+}
+
+.section-1 .hero-info .hero-buttons .hero-button-1, .section-1 .hero-info .hero-buttons .hero-button-2{
+    width: 100px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: large;
+    text-decoration: none;
+    color:#f8f9fa;
+    transition: all ease-in-out .3s;
+}
+
+.hero-button-1{
+    background-color: #1c61c7;
+    border: none;
+    margin-right: 20px;
+}
+
+.hero-button-1:hover{
+    background-color: #174791;
+}
+
+.hero-button-2{
+    border: 1px solid #1c61c7;
+}
+
+.hero-button-2:hover{
+    background-color: #1c61c7;
+    color: #fff;
 }
