@@ -28,9 +28,14 @@
 }
 
 nav{
-    width: 400px;
+    width: 500px;
     border: .5px solid red;
     margin-left: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 10px;
 }
 
 .cta-buttons{
