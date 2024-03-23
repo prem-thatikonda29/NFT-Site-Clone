@@ -41,9 +41,19 @@ nav{
     padding: 10px;
 }
 
-nav a:link{
+nav a:any-link{
     text-decoration: none;
+    color: #f8f9fad7;
+    transition: all ease-in-out .3s;
+}
 
+nav a:hover{
+    color: #ADB5BD;
+    scale: 1.08;
+}
+
+nav a:active{
+    color: #F8F9FA;
 }
 
 .cta-buttons{
