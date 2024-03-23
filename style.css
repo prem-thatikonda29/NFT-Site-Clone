@@ -317,6 +317,11 @@ nav a:active{
 
 .card .card-info p{
     padding-bottom: 10px;
+    color: var(--DARK-LINKS);
+}
+
+.card .card-info p span{
+    color: var(--LINK-WHITE);
 }
 
 .card-price{
