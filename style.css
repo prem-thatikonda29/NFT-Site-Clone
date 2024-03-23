@@ -56,21 +56,43 @@ nav a:active{
 }
 
 .cta-buttons{
-    width: 20%;
-    border: .5px solid red;
+    width: 18%;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
-.cta-buttons .search{
+.cta-buttons .search, .cta-buttons .cart{
     width: 64px;
     height: 64px;
-    border: 1px solid #1c61c7;
 }
 
-.cta-buttons .search img{
+.cta-buttons .search img, .cta-buttons .cart img{
     width: 100%;
     padding: 10%;
+    transition: all ease-in-out .3s;
+}
+
+.cta-buttons .search img:hover, .cta-buttons .cart img:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.cta-buttons button{
+    width: 90px;
+    height: 45px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    background-color: #1c61c7;
+    border: none;
+    color: #f8f9fad7;
+    cursor: pointer;
+    transition: ease-in .3s;
+    margin-left: 10px;
+}
+
+.cta-buttons button:hover{
+    background-color: #174791;
 }
 
 /* ----------MAIN SECTION------------ */
