@@ -203,3 +203,10 @@ nav a:active{
     height: 100%;
     padding: -20px;
 }
+
+/* ---------EXPLORE SECTION---------- */
+.explore{
+    width: 100%;
+    height: 100vh;
+    border: #257cff;
+}
