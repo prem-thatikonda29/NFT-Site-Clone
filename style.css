@@ -106,7 +106,6 @@ nav a:active{
 }
 
 .section-1 .hero-info{
-    border: 1px solid #f8f9fa;
     width: 45%;
     margin-top: 110px;
     padding: 80px 20px 0 20px;
@@ -182,4 +181,19 @@ nav a:active{
 
 .counter h1 span{
     color: #257cff;
+}
+
+
+/* ------------HERO IMAGE------------*/
+.section-1 .hero-image{
+    /* border: 1px solid #f8f9fa; */
+    width: 45%;
+    margin: 120px 20px 0 60px;
+    height: 80%;
+}
+
+.hero-image img{
+    width: 120%;
+    height: 100%;
+    padding: -20px;
 }
