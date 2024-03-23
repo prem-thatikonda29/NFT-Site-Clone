@@ -8,5 +8,23 @@
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 10px 50px;
+    border: .5px solid grey;
+    height: 110px;
+}
+
+.logo{
+    width: 15%;
+    border: .5px solid red;
+}
+
+nav{
+    width: 400px;
+    border: .5px solid red;
+    margin-left: 6%;
+}
+
+.cta-buttons{
+    width: 20%;
+    border: .5px solid red;
 }
