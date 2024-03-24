@@ -14,7 +14,7 @@ document.addEventListener('scroll', function() {
     console.log(value);
 })
 
-
+// ------------CAROUSEL SECTION----------
 const carousel = document.querySelector('.carousel-wrapper');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
@@ -23,16 +23,20 @@ let scrollAmount = 0;
 const carouselWidth = carousel.offsetWidth;
 const itemWidth = 360; // Width of each carousel item
 const totalItems = document.querySelectorAll('.carousel-item').length;
-const maxScrollAmount = Math.max(0, totalItems * itemWidth - carouselWidth); // Calculate the maximum scroll amount
+const maxScrollAmount = Math.max(0, totalItems * itemWidth - carouselWidth) + 180; // Calculate the maximum scroll amount
 
 // Event listener for next button
+prevBtn.style.display = 'none';
 nextBtn.addEventListener('click', function() {
     scrollAmount += itemWidth;
     if (scrollAmount >= maxScrollAmount) {
         scrollAmount = maxScrollAmount;
         nextBtn.disabled = true; // Disable the "Next" button if the last item is reached
+        nextBtn.style.transition = '.3s ease-in-out'
+        nextBtn.style.display = 'none'
     }
     carousel.style.transform = `translateX(-${scrollAmount}px)`;
+    prevBtn.style.display = ''
     prevBtn.disabled = false; // Enable the "Previous" button (in case it was disabled)
 });
 
@@ -42,7 +46,9 @@ prevBtn.addEventListener('click', function() {
     if (scrollAmount <= 0) {
         scrollAmount = 0;
         prevBtn.disabled = true; // Disable the "Previous" button if the first item is reached
+        prevBtn.style.display = 'none'
     }
     carousel.style.transform = `translateX(-${scrollAmount}px)`;
+    nextBtn.style.display = '';
     nextBtn.disabled = false; // Enable the "Next" button (in case it was disabled)
 });
