@@ -446,6 +446,45 @@ nav a:active{
     width: 100%;
     height: 100%;
     border-radius: 35px;
+    position: relative;
+}
+
+.carousel-item button{
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    left: 290px;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 45%;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: .3s ease-in-out;
+    background-color: #adb5bd7a;
+    border: 1px solid var(--FAINT-LINKS);
+}
+
+.carousel-item button:hover{
+    scale: 1.1;
+}
+
+.carousel-item h3{
+    padding: 0 20px;
+    position: absolute;
+    font-size: 24px;
+    top: 260px;
+    left: 45px;
+    color: white;
+    background-color: #0008143c;
+}
+
+.fa-brands.fa-ethereum.carousel{
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
 }
 
 #prevBtn, #nextBtn{
