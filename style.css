@@ -561,3 +561,17 @@ nav a:active{
     padding: 30px;
     border-radius: 20px;
 }
+
+.roadmap-headings{
+    width: 200px;
+    height: 100%;
+    margin-left: 35px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.roadmap-headings h2{
+    color: white;
+    font-size: 1.8rem;
+}
