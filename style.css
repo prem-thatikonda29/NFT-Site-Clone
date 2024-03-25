@@ -220,6 +220,9 @@ nav a:active{
 .explore{
     width: 100%;
     background-color: var(--BACKGROUND-COLOR);
+    background-image: url(Assets/explore-background.png);
+    background-size: cover;
+    background-position: left center;
     z-index: 100;
     color: var(--LINK-WHITE);
     padding: 50px;
