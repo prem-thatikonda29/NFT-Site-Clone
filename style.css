@@ -557,7 +557,7 @@ nav a:active{
 }
 
 .fa-solid{
-    border: 1px solid var(--FAINT-LINKS);
+    border: 1px solid white;
     padding: 30px;
     border-radius: 20px;
 }
@@ -572,7 +572,7 @@ nav a:active{
 }
 
 .roadmap-headings h2{
-    color: white;
+    color: #ffffff;
     font-size: 2rem;
 }
 
@@ -580,9 +580,12 @@ nav a:active{
     margin-left: 35px;
     width: 550px;
     height: 100%;
-    border: 1px solid white;
-    color: white;
+    color: var(--FAINT-LINKS);
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
+}
+
+.roadmap-info:last-child{
+    margin-top: -10px;
 }
