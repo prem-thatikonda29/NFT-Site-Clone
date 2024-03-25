@@ -592,7 +592,7 @@ nav a:active{
 
 .roadmap-headings h2{
     color: #ffffff;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-family: "Lato", sans-serif;
 }
 
@@ -605,7 +605,7 @@ nav a:active{
     flex-flow: column nowrap;
     justify-content: space-around;
     font-family: "Open Sans", sans-serif;
-    
+    font-size: .9rem;
 }
 
 .roadmap-info:last-child{
