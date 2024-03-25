@@ -546,7 +546,7 @@ nav a:active{
 }
 
 .roadmap-logos{
-    margin-left: 80px;
+    margin-left: 60px;
     width: 100px;
     height: 100%;
     font-size: 1.5rem;
@@ -565,7 +565,7 @@ nav a:active{
 .roadmap-headings{
     width: 200px;
     height: 100%;
-    margin-left: 35px;
+    margin-left: 25px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
@@ -573,5 +573,16 @@ nav a:active{
 
 .roadmap-headings h2{
     color: white;
-    font-size: 1.8rem;
+    font-size: 2rem;
+}
+
+.roadmap-info{
+    margin-left: 35px;
+    width: 550px;
+    height: 100%;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
 }
