@@ -23,7 +23,7 @@ let scrollAmount = 0;
 const carouselWidth = carousel.offsetWidth;
 const itemWidth = 360; // Width of each carousel item
 const totalItems = document.querySelectorAll('.carousel-item').length;
-const maxScrollAmount = Math.max(0, totalItems * itemWidth - carouselWidth) + 180; // Calculate the maximum scroll amount
+const maxScrollAmount = Math.max(0, totalItems * itemWidth - carouselWidth) + 230; // Calculate the maximum scroll amount
 
 // Event listener for next button
 prevBtn.style.display = 'none';
