@@ -517,10 +517,8 @@ nav a:active{
 .roadmap{
     width: 100%;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
     background-color: var(--BACKGROUND-COLOR);
-    padding: 50px 50px 80px 80px;
+    padding: 50px 50px 50px 80px;
 }
 
 .roadmap h1{
@@ -528,6 +526,7 @@ nav a:active{
     margin-left: 25px;
     color: var(--LINK-WHITE);
     margin-bottom: 60px;
+    display: block;
 }
 
 .roadmap-stuff{
@@ -544,4 +543,21 @@ nav a:active{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 25px;
+}
+
+.roadmap-logos{
+    margin-left: 80px;
+    width: 100px;
+    height: 100%;
+    font-size: 1.5rem;
+    color: var(--LINK-WHITE);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.fa-solid{
+    border: 1px solid var(--FAINT-LINKS);
+    padding: 30px;
+    border-radius: 20px;
 }
