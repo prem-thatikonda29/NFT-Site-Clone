@@ -546,15 +546,10 @@ nav a:active{
     border-radius: 25px;
 }
 
-.roadmap-image img{
-    width: 100%;
-    border-radius: 20px;
-}
-
 .roadmap-information{
     padding-top: 20px;
     margin-left: 40px;
-    width: 50%;
+    width: 75%;
     display: flex;
     gap: 50px;
     flex-flow: column nowrap;
@@ -562,6 +557,7 @@ nav a:active{
 
 .information{
     width: 100%;
+    height: 200px;
     display: flex;
     gap: 30px;
     border: 1px solid white;
@@ -573,15 +569,16 @@ nav a:active{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     font-size: 2rem;
 }
 
 .information-heading{
     display: grid;
     place-items: center;
+    width: 50%;
 }
 
 .information-heading h2{
-    font-size: 20px;
+    font-size: 30px;
 }
