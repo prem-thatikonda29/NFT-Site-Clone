@@ -6,7 +6,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Nunito", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -51,6 +50,7 @@ nav{
     align-items: center;
     font-size: 1.1rem;
     padding: 10px;
+    font-family: "Lato", sans-serif;
 }
 
 nav a:any-link{
@@ -75,6 +75,7 @@ nav a:active{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-family: "Open Sans", sans-serif;
 }
 
 .cta-buttons .search, .cta-buttons .cart{
@@ -124,9 +125,11 @@ nav a:active{
     width: 45%;
     margin-top: 110px;
     padding: 80px 20px 0 20px;
+    font-family: "Lato", sans-serif;
 }
 
 .section-1 .hero-info .hero-details h1{
+    font-family: "Nunito", sans-serif;
     color: #f8f9fa;
     font-size: 4.5em;
 }
@@ -229,6 +232,7 @@ nav a:active{
     z-index: 100;
     color: var(--LINK-WHITE);
     padding: 50px;
+    font-family: "Nunito", sans-serif;
 }
 
 .explore h1{
@@ -242,6 +246,7 @@ nav a:active{
     font-size: 1.2rem;
     display: flex;
     gap: 28px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .explore-links a:any-link{
@@ -272,6 +277,7 @@ nav a:active{
 .explore-cards .card{
     border: 1px solid gray;
     border-radius: 50px;
+    font-family: "Nunito", sans-serif;
 }
 
 .card .card-image{
@@ -306,6 +312,7 @@ nav a:active{
     transition: .3s ease-in-out;
     background-color: #adb5bd7a;
     border: 1px solid var(--FAINT-LINKS);
+    font-family: "Open Sans", sans-serif;
 }
 
 .card .card-image button:hover{
@@ -389,6 +396,7 @@ nav a:active{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Lato", sans-serif;
 }
 
 .explore-button button{
@@ -421,6 +429,7 @@ nav a:active{
 .trending h1{
     font-size: 3.5em;
     margin-left: 25px;
+    font-family: "Nunito", sans-serif;
 }
 
 .trending-carousel {
@@ -485,6 +494,7 @@ nav a:active{
     left: 45px;
     color: white;
     background-color: #0008143c;
+    font-family: "Lato", sans-serif;
 }
 
 .fa-brands.fa-ethereum.carousel{
@@ -535,6 +545,7 @@ nav a:active{
     color: var(--LINK-WHITE);
     margin-bottom: 60px;
     display: block;
+    font-family: "Nunito", sans-serif;
 }
 
 .roadmap-stuff{
@@ -557,7 +568,7 @@ nav a:active{
     margin-left: 60px;
     width: 100px;
     height: 100%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--LINK-WHITE);
     display: flex;
     flex-flow: column nowrap;
@@ -571,7 +582,7 @@ nav a:active{
 }
 
 .roadmap-headings{
-    width: 200px;
+    width: 240px;
     height: 100%;
     margin-left: 25px;
     display: flex;
@@ -581,7 +592,8 @@ nav a:active{
 
 .roadmap-headings h2{
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family: "Lato", sans-serif;
 }
 
 .roadmap-info{
@@ -592,6 +604,8 @@ nav a:active{
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
+    font-family: "Open Sans", sans-serif;
+    
 }
 
 .roadmap-info:last-child{
