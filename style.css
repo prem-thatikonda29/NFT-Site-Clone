@@ -518,6 +518,8 @@ nav a:active{
     width: 100%;
     height: 100vh;
     background-color: var(--BACKGROUND-COLOR);
+    background-image: url(Assets/Hero-background.png);
+    background-size: cover;
     padding: 50px 50px 50px 80px;
 }
 
