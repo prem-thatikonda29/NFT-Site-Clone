@@ -38,3 +38,11 @@ main{
 .container-login h1, h3{
     font-family: "Nunito";
 }
+
+.container-login h1{
+    font-size: 3rem;
+}
+
+.container-login h3{
+    font-size: 2rem;
+}
