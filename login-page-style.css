@@ -18,11 +18,11 @@ main{
 }
 
 .container-image{
-    width: 50%;
+    width: 60%;
 }
 
 .container-login{
-    width: 50%;
+    width: 40%;
     background-color: cornflowerblue;
     border-radius: 45px 0 0 45px;
 }
