@@ -21,11 +21,11 @@ main{
 }
 
 .container-image{
-    width: 60%;
+    width: 50%;
 }
 
 .container-login{
-    width: 40%;
+    width: 50%;
     /* background-color: cornflowerblue; */
     background-color: #fffffa;
     border-radius: 45px 0 0 45px;
@@ -46,3 +46,13 @@ main{
 .container-login h3{
     font-size: 2rem;
 }
+
+.form-section{
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: baseline;
+    font-family: "Lato";
+    font-size: 22px;
+}
+
