@@ -18,6 +18,7 @@ main{
     display: flex;
     flex-flow: row nowrap;
     background-color: rgb(201, 201, 255);
+    background-color: #AED6F1;
 }
 
 .container-image{
@@ -27,7 +28,8 @@ main{
 .container-login{
     width: 50%;
     /* background-color: cornflowerblue; */
-    background-color: #fffffa;
+    /* background-color: #fffffa; */
+    background-color: #F9F7F7;
     border-radius: 45px 0 0 45px;
     display: flex;
     flex-flow: column nowrap;
