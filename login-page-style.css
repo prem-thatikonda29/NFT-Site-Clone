@@ -32,7 +32,13 @@ main{
     background-color: #F9F7F7;
     border-radius: 45px 0 0 45px;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.container-login-main{
+    border: 4px solid #ff1500;
+    width: 60%;
+    height: 70%;
 }
