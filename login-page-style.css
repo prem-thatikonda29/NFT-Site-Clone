@@ -36,28 +36,3 @@ main{
     justify-content: center;
     align-items: center;
 }
-
-.container-login h1, h3{
-    font-family: "Nunito";
-}
-
-.container-login h1{
-    font-size: 3rem;
-}
-
-.container-login h3{
-    font-size: 2rem;
-}
-
-.form-section{
-    margin-top: 30px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: baseline;
-    font-family: "Lato";
-    font-size: 22px;
-}
-
-.form-section p{
-    font-size: 12px;
-}
