@@ -622,7 +622,8 @@ footer{
     padding: 60px 100px;
     display: flex;
     flex-flow: row wrap;
-    background-color: var(--BACKGROUND-COLOR);
+    background-color: var(--CARD_BACKGROUND);
+    font-family: 'Open Sans';
 }
 
 .footer-1{
@@ -654,12 +655,12 @@ footer{
 
 .footer-1:first-child p{
     color: var(--DARK-LINKS);
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 15px;
 }
 
 .footer-icons{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--DARK-LINKS);
     display: flex;
     gap: 10px;
@@ -677,6 +678,7 @@ footer{
 
 .footer-links h3{
     color: var(--DARK-LINKS);
+    font-size: 1.4rem;
 }
 
 .footer-links ul{
@@ -686,6 +688,7 @@ footer{
     flex-flow: column wrap;
     justify-content: space-between;
     gap: 15px;
+    font-size: 0.9rem;
 }
 
 .footer-2{
