@@ -623,3 +623,9 @@ footer{
     flex-flow: column wrap;
 }
 
+.footer-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    gap: 20px;
+}
