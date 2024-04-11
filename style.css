@@ -621,6 +621,7 @@ footer{
     padding: 50px;
     display: flex;
     flex-flow: column wrap;
+    background-color: var(--BACKGROUND-COLOR);
 }
 
 .footer-1{
@@ -628,4 +629,16 @@ footer{
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px;
     gap: 20px;
+}
+
+.footer-1:first-child h1{
+    color: var(--ROYALBLUE);
+}
+
+.footer-1:first-child h1 span{
+    color: var(--LINK-WHITE);
+}
+
+.footer-1:first-child p{
+    color: var(--DARK-LINKS);
 }
