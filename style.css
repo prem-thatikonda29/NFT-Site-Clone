@@ -691,6 +691,11 @@ footer{
     font-size: 0.9rem;
 }
 
+.footer-links ul li a:link, .footer-links ul li a:visited{
+    text-decoration: none;
+    color: var(--LINK-WHITE);
+}
+
 .footer-2{
     display: flex;
     justify-content: center;
