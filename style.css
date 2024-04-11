@@ -621,7 +621,7 @@ footer{
     height: 400px;
     padding: 60px 100px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     background-color: var(--BACKGROUND-COLOR);
 }
 
@@ -686,4 +686,18 @@ footer{
     flex-flow: column wrap;
     justify-content: space-between;
     gap: 15px;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.footer-2 h2{
+    text-align: center;
+    color: var(--LINK-WHITE);
+    font-size: 1rem;
 }
