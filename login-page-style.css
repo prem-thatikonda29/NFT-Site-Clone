@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.login-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgb(201, 201, 255);
+    background-color: #AED6F1;
+}
+
+.container-image{
+    width: 50%;
+}
+
+.container-login{
+    width: 50%;
+    /* background-color: cornflowerblue; */
+    /* background-color: #fffffa; */
+    background-color: #F9F7F7;
+    border-radius: 45px 0 0 45px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login-main{
+    border: 4px solid #ff1500;
+    width: 60%;
+    height: 70%;
+    padding: 10px;
+}
+
+.login-headings{
+    height: 25%;
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-family: "Nunito";
+}
+
+.login-headings h1{
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+}
+
+.login-headings h3{
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+}
+
+.login-form{
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 55%;
+}
