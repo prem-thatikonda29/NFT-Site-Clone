@@ -661,9 +661,19 @@ footer{
 
 .footer-icons{
     font-size: 1.4rem;
-    color: var(--DARK-LINKS);
     display: flex;
     gap: 10px;
+}
+
+.footer-icons a:link, .footer-icons a:visited{
+    color: var(--DARK-LINKS);
+    transition: .3s ease-in-out;
+}
+
+.footer-icons a:link:hover, .footer-icons a:visited:hover{
+    transform: scale(1.2);
+    color: var(--LINK-WHITE);
+    transition: .3s ease-in-out;
 }
 
 .footer-links{
